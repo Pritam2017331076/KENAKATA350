@@ -55,15 +55,20 @@ cd $HOME/fabric-samples/KENAKATA/chaincode-javascript
 npm install
 
 cd $HOME/fabric-samples/test-network
+
 ./network.sh down
 
 cd $HOME/fabric-samples/test-network
+
 ./network.sh createChannel -ca -c mychannel -s couchdb
 
 cd $HOME/fabric-samples/test-network
+
 ./network.sh deployCC -ccn kenakata21 -ccp ../KENAKATA/chaincode-javascript/ -ccl javascript
 
 cd $HOME/fabric-samples/KENAKATA/application-javascript
+
 rm -rf wallet
+
 node app.js
 
