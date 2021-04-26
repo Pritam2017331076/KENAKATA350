@@ -51,6 +51,7 @@ node server
 ##############open another new tab in terminator##############
 
 cd $HOME/fabric-samples/KENAKATA/chaincode-javascript
+
 npm install
 
 cd $HOME/fabric-samples/test-network
