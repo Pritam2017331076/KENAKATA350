@@ -1,0 +1,51 @@
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu span:hover {
+    color: rgb(207, 41, 83);
+}
+
+.signupbtn {
+    top: 55px;
+    right: 100px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logoutbtn {
+    top: 55px;
+    right: 100px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+}
+
+.loginbtn {
+    top: 55px;
+    right: 0px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigationbar {
+    border: 1px solid rgb(95, 211, 18);
+    border-radius: 30px;
+}
+
+.intro {
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(160, 110, 101)
+}

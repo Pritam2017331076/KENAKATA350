@@ -1,0 +1,217 @@
+            body {
+                margin: 0;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            
+            code {
+                font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+            }
+            
+            .menu ul {
+                display: inline-flex;
+                margin: 50px;
+            }
+            
+            .menu ul li {
+                list-style: none;
+                margin: 0 20px;
+                color: #b2b1b1;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            
+            .menu span:hover {
+                color: rgb(207, 41, 83);
+            }
+            
+            .signupbtn {
+                top: 55px;
+                right: 100px;
+                position: absolute;
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .loginbtn {
+                top: 55px;
+                right: 0px;
+                position: absolute;
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .navigationbar {
+                border: 1px solid rgb(95, 211, 18);
+                border-radius: 30px;
+            }
+            
+            .intro {
+                padding: 50px;
+                font-size: 30px;
+                color: rgb(160, 110, 101)
+            }
+            
+            .intro {
+                padding: 50px;
+                font-size: 30px;
+                color: rgb(160, 110, 101)
+            }
+            
+            .options {
+                font-size: 30px;
+                padding: 50px;
+                list-style-type: none;
+            }
+            
+            .optionmenu span:hover {
+                color: red;
+                cursor: pointer;
+            }
+            
+            ul {
+                list-style-type: none;
+            }
+            
+            * {
+                box-sizing: border-box
+            }
+            /* Add padding to containers */
+            
+            .signup {
+                padding: 16px;
+            }
+            
+            .login {
+                padding: 16px;
+            }
+            /* Full-width input fields */
+            
+            .input {
+                width: 50%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+            
+            .input:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+            /* Set a style for the submit/register button */
+            
+            .registerbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                opacity: 0.9;
+                width: 100px;
+            }
+            
+            .loginsubbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                opacity: 0.9;
+                width: 100px;
+            }
+            
+            .registerbtn:hover {
+                opacity: 1;
+            }
+            
+            .loginsubbtn:hover {
+                opacity: 1;
+            }
+            /* Add a blue text color to links */
+            
+            .hello {
+                text-align: center;
+                color: rgb(209, 95, 95);
+            }
+            
+            .sport :hover {
+                color: 'red';
+            }
+            
+            .cloth :hover {
+                color: 'red';
+            }
+            
+            .electronics :hover {
+                color: 'red';
+            }
+            
+            .football :hover {
+                color: 'red';
+            }
+            
+            .ball :hover {
+                color: 'red';
+            }
+            
+            .bat :hover {
+                color: 'red';
+            }
+            
+            .tubelight :hover {
+                color: 'red';
+            }
+            
+            .fan :hover {
+                color: 'red';
+            }
+            
+            .bulb :hover {
+                color: 'red';
+            }
+            
+            .saree :hover {
+                color: 'red';
+            }
+            
+            .jacket :hover {
+                color: 'red';
+            }
+            
+            .shirt :hover {
+                color: 'red';
+            }
+            
+            .shirt,
+            .jacket,
+            .saree,
+            .bulb,
+            .fan,
+            .tubelight,
+            .bat,
+            .ball,
+            .football,
+            .electronics,
+            .cloth,
+            .sport {
+                background-color: rgb(138, 125, 139);
+                color: rgb(231, 231, 241);
+                width: 90%;
+                height: 90px;
+                border: 1px solid #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                padding: -5px 0px 5px 0px;
+                margin: auto;
+                cursor: pointer;
+                font-size: 20px;
+            }
+            
+            .cloth:hover {
+                color: rgb(52, 218, 74);
+            }
