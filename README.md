@@ -14,6 +14,8 @@ cd KENAKATA/
 
 cd application-javascript/
 
+npm install
+
 cd kenakata/
 
 npm start
@@ -34,6 +36,8 @@ cd KENAKATA/
 
 cd application-javascript/
 
+npm install
+
 cd kenakata/
 
 cd backend/
@@ -45,6 +49,9 @@ node server
 
 
 ##############open another new tab in terminator##############
+
+cd $HOME/fabric-samples/KENAKATA/chaincode-javascript
+npm install
 
 cd $HOME/fabric-samples/test-network
 ./network.sh down
