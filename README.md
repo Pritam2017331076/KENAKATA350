@@ -44,7 +44,8 @@ cd kenakata/
 
 cd backend/
 
-open a file in this backend folder named ".env" and paste "ATLAS_URI=mongodb+srv://pritam:5728940p@cluster0.yv3yc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" code(without quotation)
+Go to your editor.
+open a file in this backend folder named ".env" and paste "ATLAS_URI=mongodb+srv://pritam:5728940p@cluster0.yv3yc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" code(without quotation) in .env file.
 
 node server
 
