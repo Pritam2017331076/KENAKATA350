@@ -69,7 +69,7 @@ cd $HOME/fabric-samples/test-network
 
 cd $HOME/fabric-samples/test-network
 
-./network.sh deployCC -ccn kenakata21 -ccp ../KENAKATA/chaincode-javascript/ -ccl javascript
+./network.sh deployCC -ccn kenakata30 -ccp ../KENAKATA/chaincode-javascript/ -ccl javascript
 
 cd $HOME/fabric-samples/KENAKATA/application-javascript
 
